@@ -4,6 +4,7 @@
 * Algorithms and Data Structure II (DCA3702) 
 
 Student: Maria Clara Moura de Freitas
+
 Matrícula: 20230093652
   
 This is the repository for the Algorithms and Data Structures II course, offered by the Department of Computer Engineering and Automation (DCA) of the Technology Center (CT) at the Federal University of Rio Grande do Norte (UFRN).
