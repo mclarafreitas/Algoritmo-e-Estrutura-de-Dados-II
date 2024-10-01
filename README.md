@@ -1,6 +1,3 @@
-*Federal University of Rio Grande do Norte*
-* Technology Center 
-* Department of Computer Engineering and Automation 
 * Algorithms and Data Structure II (DCA3702) 
 
 Student: Maria Clara Moura de Freitas
