@@ -1,4 +1,4 @@
-# Unidade 1 Trabalho 4 - Análise da Conectividade e Estrutura da Rede de Ruas de Natal-RN usando OSMnx e NetworkX"
+# Unidade 1 Trabalho 4 - Análise da Conectividade e Estrutura da Rede de Ruas de Natal-RN usando OSMnx e NetworkX
 
 ## Aluna:  
 - Maria Clara Moura de Freitas (20230093652)
