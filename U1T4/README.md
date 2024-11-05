@@ -27,17 +27,25 @@ Comprimento Médio do Menor Caminho: 79.29 Esse valor indica
 Diâmetro da rede: 209
 Coeficiente de Agrupamento: 0.0305
 
-Após todo o desenvolvimento, três perguntas importantes segiram:
+Após todo o desenvolvimento, três perguntas importantes surgiram:
 1. Como está a conectividade geral entre diferentes pontos da cidade de Natal? A estrutura de rede de ruas permite um deslocamento eficiente entre as áreas da cidade:
-2. A estrutura de ruas de Natal é densa em interseções e conexões entre vizinhos, ou é mais dispersa, com menos cruzamentos diretos? 
-3.Existem áreas da cidade de Natal que são significativamente distantes entre si, dificultando o acesso e o deslocamento?
-
+    * O comprimento médio do menor caminho (Average Shortest Path Length) de 79.29 indica que, em média, a distância mínima entre dois pontos na rede é razoavelmente alta. Esse valor sugere que, embora exista conectividade entre diferentes áreas da cidade, o deslocamento entre pontos pode envolver trajetos longos, o que pode ser uma limitação para a eficiência no transporte urbano. Esse resultado pode indicar a necessidade de novas conexões em áreas que possivelmente são menos acessíveis.
+   
+2. A estrutura de ruas de Natal é densa em interseções e conexões entre vizinhos, ou é mais dispersa, com menos cruzamentos diretos?
+   * O coeficiente de agrupamento (Clustering Coefficient) de 0.0305 indica um baixo nível de interconexão entre os vizinhos dos nós na rede. Isso significa que a estrutura de ruas de Natal tem uma configuração mais linear e menos densa em interseções. Em vez de muitos cruzamentos interligados, a rede parece ter mais avenidas principais e ruas que se estendem sem tantas interconexões locais. Esse tipo de estrutura pode ser menos adequado para deslocamentos curtos e pode indicar uma rede mais dispersa, comum em cidades que privilegiam um layout voltado para vias arteriais.
+   
+3. Existem áreas da cidade de Natal que são significativamente distantes entre si, dificultando o acesso e o deslocamento?
+    * O diâmetro da rede (Diameter of Network) de 209 representa a maior distância mínima entre dois pontos da rede. Esse valor elevado sugere que existem áreas da cidade com distâncias consideráveis entre si, o que indica uma estrutura de rede onde alguns pontos estão relativamente isolados. Essa característica pode ser um desafio para o acesso a determinadas áreas, especialmente se estas não estiverem próximas de rotas principais ou de conexões diretas.
+  
 ## Conclusão
 
+A aplicação das métricas de redes urbanas usando OSMnx e NetworkX permitiu uma análise detalhada da conectividade e estrutura da rede viária de Natal, RN. A média do menor caminho e o diâmetro alto indicam uma cidade com uma rede de ruas relativamente conectada, mas com algumas áreas potencialmente mais distantes entre si. O baixo coeficiente de agrupamento aponta para uma estrutura de ruas onde as interconexões entre vizinhos são menos frequentes, característica comum em cidades com avenidas principais e bairros menos interligados.
+
+Essas análises são fundamentais para urbanistas e planejadores urbanos, pois permitem identificar áreas que poderiam ser melhor conectadas, promovendo maior acessibilidade e eficiência de deslocamento na cidade.
 
 ## Formas de executar o código
 
-O código completo está disponível neste repositório do Github, juntamente com o arquivo de dados em formato .csv. Para executar o código é recomendável usar o Google Colab, que já possui as bibliotecas necessárias. No caso do uso de outro ambiente, talvez seja necessário instalar algumas dessas bibliotecas.
+O código completo está disponível neste repositório do Github. Para executar o código é recomendável usar o Google Colab, que já possui as bibliotecas necessárias. No caso do uso de outro ambiente, talvez seja necessário instalar algumas dessas bibliotecas.
 
 ## Link para a apresentação do código em vídeo
 
