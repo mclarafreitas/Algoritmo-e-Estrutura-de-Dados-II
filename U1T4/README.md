@@ -23,9 +23,11 @@ A Análise desses métricas proporciona uma visão detalhada da acessibilidade e
 
 ## Resultados e Discussão
 Os valores encontrados para as métricas foram:
-Comprimento Médio do Menor Caminho: 79.29 Esse valor indica
-Diâmetro da rede: 209
-Coeficiente de Agrupamento: 0.0305
+* Comprimento Médio do Menor Caminho (79.29): Esse valor indica que, em média, o menor caminho entre dois pontos na rede de ruas de Natal é de aproximadamente 79 unidades. Isso sugere uma boa conectividade entre diferentes áreas da cidade, embora o valor relativamente alto possa indicar alguma dispersão nas rotas.
+
+* Diâmetro da rede (209): Este valor representa a maior distância mínima entre quaisquer dois pontos na rede. Um diâmetro alto pode indicar que existem áreas da cidade mais distantes entre si, ou seja, pode haver uma região menos acessível em relação ao centro da cidade ou a outras áreas mais conectadas.
+
+* Coeficiente de Agrupamento (0.0305): O coeficiente de agrupamento baixo indica que a rede de ruas de Natal tem poucas conexões entre vizinhos de um nó. Isso é comum em redes de ruas com um layout mais linear, como avenidas e ruas longas, em vez de configurações com muitas interseções, como em redes com alta densidade de cruzamentos.
 
 Após todo o desenvolvimento, três perguntas importantes surgiram:
 1. Como está a conectividade geral entre diferentes pontos da cidade de Natal? A estrutura de rede de ruas permite um deslocamento eficiente entre as áreas da cidade:
