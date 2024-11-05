@@ -31,7 +31,7 @@ Os valores encontrados para as métricas foram:
 * Coeficiente de Agrupamento (0.0305): O coeficiente de agrupamento baixo indica que a rede de ruas de Natal tem poucas conexões entre vizinhos de um nó. Isso é comum em redes de ruas com um layout mais linear, como avenidas e ruas longas, em vez de configurações com muitas interseções, como em redes com alta densidade de cruzamentos.
 
 Após todo o desenvolvimento, três perguntas importantes surgiram:
-1. Como está a conectividade geral entre diferentes pontos da cidade de Natal? A estrutura de rede de ruas permite um deslocamento eficiente entre as áreas da cidade:
+1. Como está a conectividade geral entre diferentes pontos da cidade de Natal? A estrutura de rede de ruas permite um deslocamento eficiente entre as áreas da cidade?
     * O comprimento médio do menor caminho (Average Shortest Path Length) de 79.29 indica que, em média, a distância mínima entre dois pontos na rede é razoavelmente alta. Esse valor sugere que, embora exista conectividade entre diferentes áreas da cidade, o deslocamento entre pontos pode envolver trajetos longos, o que pode ser uma limitação para a eficiência no transporte urbano. Esse resultado pode indicar a necessidade de novas conexões em áreas que possivelmente são menos acessíveis.
    
 2. A estrutura de ruas de Natal é densa em interseções e conexões entre vizinhos, ou é mais dispersa, com menos cruzamentos diretos?
