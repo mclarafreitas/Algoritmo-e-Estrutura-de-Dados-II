@@ -51,8 +51,11 @@ O código completo está disponível neste repositório do Github. Para executar
 
 ## Link para a apresentação do código em vídeo
 
-[**Youtube**](https://youtu.be)
+[**Youtube**](https://youtu.be/LzVxKbDd_Y8)
 
 ## Referências
+https://github.com/gboeing/osmnx
+https://osmnx.readthedocs.io/en/stable/getting-started.html
+https://github.com/ivanovitchm/datastructure
 
 
