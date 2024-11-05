@@ -14,6 +14,7 @@ Para a realização destas analises foram utilizados duas bibliotecas em Python:
 
 Para extrair a rede das ruas de Netal foi baixado utilizando a função *graph_from_place* do *OSMnx*, limitando-se a ruas acessíveis a veículos. Com isso, foi impresso a imagem da representação visual da cidade, como ilustrado na imagem abaixo:
 ![Natal-RN](https://github.com/mclarafreitas/Algoritmo-e-Estrutura-de-Dados-II/blob/c93796cad7b58dffa101013386432ef0547fbf24/U1T4/Imagens/natalrn.png)
+
 Em seguida, extraímos o maior compenente fortemente conectado, o que nos garante que todas as partes da rede analisada fossem acessíveis entre si. Após isso, calcumos as três métricas escolhidas por mim, que foram:
 * Comprimento médio do menor caminho: Indica a média de menor distância entre pares de interseções, representando o nível geral de conectividade.
 * Diâmetro da rede: Representa o maior menor caminho possível entre dois nós da rede, fornecenedo uma medida da extensão da cidade.
