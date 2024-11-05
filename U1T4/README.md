@@ -4,7 +4,7 @@
 - Maria Clara Moura de Freitas (20230093652)
 
 ## Objetivo Geral:  
-Este trabalho teve como objetivo utilizar as métricas de análise de redes estudadas em sala de aula para explorar a rede de ruas da cidade de Natal-RN. Para isso, utilizamos as bibliotecas *OSMnx* e *Networkx* para acesssar dados do OpenStreetMap e calcular métricas que apresentam a conectividade e estrutura da rede urbana. As métricas analisadas foram o comprimento médio do menor caminho, o diâmetro de rede e o coeficiente de agrupamento.
+Este trabalho teve como objetivo utilizar as métricas de análise de redes estudadas em sala de aula para explorar a rede de ruas da cidade de Natal-RN. Para isso, utilizamos as bibliotecas *OSMnx* e *Networkx* para acessar dados do OpenStreetMap e calcular métricas que apresentam a conectividade e estrutura da rede urbana. As métricas analisadas foram o comprimento médio do menor caminho, o diâmetro de rede e o coeficiente de agrupamento.
 
 
 ## Desenvolvimento  
