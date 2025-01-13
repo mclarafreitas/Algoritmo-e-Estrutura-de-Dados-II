@@ -6,6 +6,23 @@
 ## Objetivo Geral:  
 
 Utilizou-se o algoritmo de Kruskal, que é empregado para encontrar a Árvore Geradora Mínima (MST) de um grafo ponderado e conectado. O algoritmo funciona ordenando as arestas por peso e adicionando-as à MST em ordem crescente, desde que não formem ciclos. Essa abordagem gananciosa assegura a minimização do peso total da árvore geradora. No contexto deste trabalho, havia a possibilidade de escolher entre alguns problemas sugeridos, e o escolhido foi o relacionado ao transporte na cidade de Natal. O objetivo foi conectar grandes centros de transporte, especificamente terminais de ônibus, utilizando uma Árvore Geradora Mínima (MST). O propósito central é identificar as rotas mais curtas entre esses pontos de interesse (POIs), reduzindo a distância total de viagem e otimizando a infraestrutura de transporte urbano.
+
+# Problema 1
+
+## Objetivo Geral:
+
+## Desenvolvimento
+
+## Resultados e Discussão
+
+## Conclusão
+
+# Problema 2
+
+## Objetivo Geral:  
+
+Utilizou-se o algoritmo de Kruskal, que é empregado para encontrar a Árvore Geradora Mínima (MST) de um grafo ponderado e conectado. O algoritmo funciona ordenando as arestas por peso e adicionando-as à MST em ordem crescente, desde que não formem ciclos. Essa abordagem gananciosa assegura a minimização do peso total da árvore geradora. No contexto deste trabalho, havia a possibilidade de escolher entre alguns problemas sugeridos, e o escolhido foi o relacionado ao transporte na cidade de Natal. O objetivo foi conectar grandes centros de transporte, especificamente terminais de ônibus, utilizando uma Árvore Geradora Mínima (MST). O propósito central é identificar as rotas mais curtas entre esses pontos de interesse (POIs), reduzindo a distância total de viagem e otimizando a infraestrutura de transporte urbano.
+
 ## Desenvolvimento  
 
 Para atingir o objetivo proposto, o trabalho foi desenvolvido em etapas principais descritas a seguir:
