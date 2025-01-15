@@ -3,9 +3,9 @@
 ## Aluna:  
 - Maria Clara Moura de Freitas (20230093652)
 
-## Objetivo Geral:  
+## Introdução:  
 
-Utilizou-se o algoritmo de Kruskal, que é empregado para encontrar a Árvore Geradora Mínima (MST) de um grafo ponderado e conectado. O algoritmo funciona ordenando as arestas por peso e adicionando-as à MST em ordem crescente, desde que não formem ciclos. Essa abordagem gananciosa assegura a minimização do peso total da árvore geradora. No contexto deste trabalho, havia a possibilidade de escolher entre alguns problemas sugeridos, e o escolhido foi o relacionado ao transporte na cidade de Natal. O objetivo foi conectar grandes centros de transporte, especificamente terminais de ônibus, utilizando uma Árvore Geradora Mínima (MST). O propósito central é identificar as rotas mais curtas entre esses pontos de interesse (POIs), reduzindo a distância total de viagem e otimizando a infraestrutura de transporte urbano.
+Os algoritmos de Dijkstra e Kruskal são fundamentais na teoria dos grafos e resolução de problemas de otimização. O algoritmo de **Dijkstra** encontra o menor caminho em grafos ponderados, expandindo iterativamente a menor distância a partir de um vértice inicial, sendo usado em áreas como navegação e redes. Já o algoritmo de **Kruskal** determina a árvore geradora mínima de um grafo conectado ao selecionar arestas de menor peso sem formar ciclos, com aplicações em redes de comunicação e energia. Ambos são eficientes e amplamente aplicados em engenharia e ciência da computação.
 
 # Problema 1 - Dijkstra
 
@@ -40,32 +40,15 @@ Geração da MST:
 Foi utilizada a biblioteca scipy para calcular a Árvore Geradora Mínima (MST) entre os POIs selecionados. A MST é composta pelas arestas que conectam todos os POIs de forma eficiente, minimizando a distância total sem criar ciclos.
 
 Visualização dos Resultados:
-A MST gerada foi sobreposta ao mapa de Natal. As rotas otimizadas foram destacadas em vermelho, enquanto os POIs foram marcados como pontos azuis para facilitar a interpretação.
+A MST gerada foi sobreposta ao mapa de Natal. As rotas otimizadas foram destacadas em vermelho, enquanto os POIs (terminais de ônibus) foram marcados como pontos azuis para facilitar a interpretação.
 
 ![Natal-RN](https://github.com/mclarafreitas/Algoritmo-e-Estrutura-de-Dados-II/blob/c47537d1924af4e7edb0cd06730f494a3cdc7192/Images/Unknown-3.png)
 
 
 ## Resultados e Discussão
-A Árvore Geradora Mínima gerada conectou eficientemente os terminais de ônibus em Natal, resultando em um comprimento total de 61.174,97 metros. Este valor reflete a soma das distâncias das rotas otimizadas entre os POIs. O uso do algoritmo de Kruskal foi fundamental para garantir a eficiência no processo de geração da MST, uma vez que sua abordagem gananciosa, baseada na ordenação e seleção de arestas de menor peso, permitiu a criação de uma rede otimizada sem ciclos.
+A Árvore Geradora Mínima gerada conectou eficientemente os terminais de ônibus em Natal, resultando em um comprimento total de 61.174,97 metros. Este valor reflete a soma das distâncias das rotas otimizadas entre os POIs. O uso do algoritmo de Kruskal foi fundamental para garantir a eficiência no processo de geração da MST, uma vez que sua abordagem gananciosa, baseada na ordenação e seleção de arestas de menor peso, permitiu a criação de uma rede otimizada sem ciclos. A MST minimiza o custo total de conexões entre os terminais, oferecendo uma solução ideal para o planejamento de infraestrutura viária. A implementação desse modelo em cenários reais poderia reduzir custos de deslocamento e melhorar a acessibilidade urbana.
 
-Visualização:
-
-As rotas da MST foram exibidas no mapa de Natal, com as conexões otimizadas destacadas em vermelho.
-
-Os POIs foram representados como pontos azuis, correspondendo às localizações dos terminais de ônibus.
-
-Impacto da Análise:
-
-A MST minimiza o custo total de conexões entre os terminais, oferecendo uma solução ideal para o planejamento de infraestrutura viária.
-
-A implementação desse modelo em cenários reais poderia reduzir custos de deslocamento e melhorar a acessibilidade urbana.
-
-Limitações:
-
-Apenas os terminais de ônibus foram considerados como POIs. Outros grandes centros de transporte, como estações de trem e aeroportos, poderiam ser incluídos em análises futuras.
-
-O modelo não considerou fatores como condições das vias ou custos de construção, que podem impactar a implementação prática.
-A Árvore Geradora Mínima gerada conectou eficientemente os terminais de ônibus em Natal, resultando em um comprimento total de 61.174,97 metros. Este valor reflete a soma das distâncias das rotas otimizadas entre os POIs.
+Apenas os terminais de ônibus foram considerados como POIs. Outros grandes tipos de transporte, como estações de trem e aeroportos, poderiam ser incluídos em análises futuras. O modelo não considerou fatores como condições das vias ou custos de construção, que podem impactar a implementação prática. A Árvore Geradora Mínima gerada conectou eficientemente os terminais de ônibus em Natal, resultando em um comprimento total de 61.174,97 metros. Este valor reflete a soma das distâncias das rotas otimizadas entre os POIs.
   
 ## Conclusão
 
