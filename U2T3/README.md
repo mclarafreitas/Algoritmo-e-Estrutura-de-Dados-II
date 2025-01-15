@@ -77,7 +77,7 @@ O código completo está disponível neste repositório do Github. Para executar
 
 ## Link para a apresentação do código em vídeo
 
-[**Youtube**](https://youtu.be/LzVxKbDd_Y8)
+[**Youtube**](https://youtu.be/6ZGTmXbRT_g)
 
 ## Referências
 
